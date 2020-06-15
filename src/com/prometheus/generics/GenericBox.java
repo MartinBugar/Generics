@@ -1,5 +1,15 @@
 package com.prometheus.generics;
 
+/*
+- pri generikach pouzivame velke pismena
+KONVENCIE :
+-  E -> element
+-  K -> Key
+-  N -> Number
+-  T -> Type
+-  V -> Value
+ */
+
 import com.prometheus.Box;
 
 public class GenericBox <P>{ // generikum P
