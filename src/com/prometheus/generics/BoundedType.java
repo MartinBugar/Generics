@@ -30,7 +30,8 @@ public class BoundedType <P extends Pes> { // P mi nahradza len typy ktore exten
         - ked si nasetujeme objekt psa do nasho objektu bounded type, tak mozem zavolat metodou
          */
 
-        BoundedType <NejakyPes> NejakyPesBoundedType = new BoundedType<>(); // nova instancia bounded type
+        BoundedType <NejakyPes> NejakyPesBoundedType = new BoundedType<>(); // nova instancia bounded type, az pri zadefinovani si mozem urcit akeho typu to ma byt, kedze je to genericke ale
+        // instancia tejto hlavnej triedy musi byt zachovana, a az potom sa napise predstavenie akeho typu je to generikum
         NejakyPesBoundedType.setObjectPsa(new NejakyPes());
         NejakyPesBoundedType.boundedStekaj();
 
