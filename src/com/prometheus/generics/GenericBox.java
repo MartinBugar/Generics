@@ -18,7 +18,7 @@ public class GenericBox <P>{ // generikum P
 
 
     public static void main(String[] args) {
-        GenericBox<String> stringGenericBox = new GenericBox<>(); // musime tam pridat namiesto toho generika
+        GenericBox <String> stringGenericBox = new GenericBox<>(); // musime tam pridat namiesto toho generika
         stringGenericBox.addObject("martin");
         String s = stringGenericBox.getObject();
         System.out.println(s);
